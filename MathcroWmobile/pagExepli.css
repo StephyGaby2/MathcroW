@@ -93,6 +93,7 @@
       transition: background-color 0.7s;
       color: var(--text-color);
       cursor: pointer;
+      height: 10vh;
   }
   
   .diminuir:hover{

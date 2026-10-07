@@ -536,8 +536,52 @@ function sistemasLineares(){
 
 
     tituMud.textContent = "Sistemas Lineares";
-    expliMud.textContent = "Preview";
-    exempMud.textContent = "Preview";
+    expliMud.innerHTML = `<p>Sistema linear é um conjunto de dois ou mais equações que precisam ser satisfeitas simultaneamente pelas respectivas incógnitas.
+     Chamamos de equação quando temos uma expressão algébrica com igualdade, e é classificada como linear quando o maior expoente de suas incógnitas é 1.</p><br><br>
+     
+     <h2><strong> Resolução de sistemas lineares </strong></h2> <br>
+     <h3><strong> •	Sistemas lineares com 2 equações do 1º grau e 2 incógnitas </strong></h3><br>
+     <p> Os principais métodos para resolver esse tipo de sistema são:<br>
+     - Método da adição<br>
+     - Método da substituição</p><br><br>
+
+     <h3><strong> Vamos considerar: </strong> <br> 
+     5x - 4y = -5 <br>
+     x + 2y = 13 </h3> <br><br>     
+
+     <p><strong> Método da adição </strong> <br>
+     O método da adição consiste em realizar uma multiplicação de todos os termos de uma equação, de forma que, ao somar a equação I e a equação II, uma das
+     incógnitas fique igual a 0. <br>
+     
+     1º - Multiplicar uma das equações para que os coeficientes fiquem opostos
+     No exemplo acima, ao multiplicar a equação II por 2, teremos 4y na equação II e -4y na equação I, e, ao somar o I e II, teremos 0y. Assim, é necessário
+      multiplicar todos os termos da equação II por 2.<br> </p>
+
+     <h3> Equação II = 2(x + 2y = 13) -> 2x + 4y = 26 </h3><br>
+
+     <p> 2º - Realizar a soma da equação I + II </p><br>
+     <img src='../img/imgsist1.png'> 
+
+     <p>3º - Substituir o valor de x em uma das equações</p><br>
+     <img src='../img/imgsist2.png'> 
+
+     <p><strong> Método da substituição </strong><br>
+     O método da substituição consiste em isolar uma das incógnitas de uma das equações e depois substituir na outra equação.<br>
+     
+     1º - Isolar uma das incógnitas <br>
+     Primeiro, deve-se analisar qual das incógnitas é a mais fácil de ser isolada. Podemos observar que na equação II (x + 2y = 13), o x não possui coeficiente, 
+     sendo mais fácil de ser isolá-lo. Vamos reescrever a equação II para:<br>
+     Equação II = x + 2y = 13 -> x = (-2y) + 13 <br><br>
+     
+     2º - Substituir II em I<br>
+     Agora que temos a equação II com o x isolado, podemos substituir o x da equação I por (-2y) + 13 dessa forma:<br>
+     Equação I = 5x - 4y = -5<br>
+     Substituindo:<br>
+     Equação I = 5(-2y + 13) – 4 = -5</p><br>
+     <img src='../img/imgsist3.png'>
+     <img src='../img/imgsist4.png'>
+     `;
+    exempMud.innerHTML = "<h4>Os exemplos já estão contidos na explicação</h4>";
 
 
     questoes = [
