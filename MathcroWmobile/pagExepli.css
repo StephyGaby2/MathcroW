@@ -561,7 +561,7 @@
       }
 
       .explicacao img{
-        width: 10px;
+        max-width: 768px;
         height: auto;
       }
   
